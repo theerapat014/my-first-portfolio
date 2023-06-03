@@ -1,0 +1,134 @@
+:root{
+    /* color */
+    --clr-dark : #040c2f;
+    --clr-light :#f1f5f9 ;
+    --clr-slate400 : #94a3b8;
+    --clr-slate600 :#475569;
+    --clr-slate800 :#1e293b;
+    --clr-blue :#2563eb ;
+    --clr-sky : #38bdf8;
+    --clr-rose :#e11d48 ;
+
+    /* sky 	rgb(56, 189, 248)  */
+    
+    /* size */
+    --size-xxs:0.5rem ;
+    --size-xs:0.75rem ;
+    --size-sm:0.875rem ;
+    --size-base:1rem ;
+    --size-lg:1.125rem ;
+    --size-xl:1.25rem ;
+    --size-2xl:1.5rem ;
+    --size-3xl:1.875rem ;
+    --size-4xl:2.25rem ;
+    --size-5xl:3rem ;
+    --size-6xl:3.75rem ;
+    --size-7xl:4.5rem ;
+    --size-8xl:6rem ;
+    --size-9xl:8rem ;
+    --size-10xl:10rem ;
+
+
+}
+*{
+    margin: 0;
+    line-height: calc(1em+0.5rem);
+}
+html{
+    scroll-behavior: smooth;
+}
+img,
+picture,
+canvas,video,
+svg{
+    display:block;
+    max-width: 100%;
+    user-select: none ;
+}
+button{
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+footer{
+    padding: 40px 0;
+    background-color:var(--clr-dark);
+}
+footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: var(--clr-light);
+}
+footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid var(--clr-light);
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.5;
+}
+footer .social .a1:hover{
+    opacity: 1;
+    color:var(--clr-blue);
+    box-shadow: 0 10px 20px 	rgb(37, 99, 235,0.5),0 6px 6px 	rgb(37, 99, 235,0.5)
+    ,0 0 60px -10px var(--clr-rose);
+    border: 1px solid var(--clr-blue);
+}
+footer .social .a2:hover{
+    opacity: 1;
+    color:var(--clr-sky);
+    box-shadow: 0 10px 20px rgb(56, 189, 248,0.5),0 6px 6px rgb(56, 189, 248,0.5)
+    ,0 0 100px -10px var(--clr-sky);
+    border: 1px solid var(--clr-sky);
+}
+footer .social .a3:hover{
+    opacity: 1;
+    color: #e11d48;
+    box-shadow: 0 10px 20px rgb(225, 29, 72,0.5),0 6px 6px rgb(225, 29, 72,0.5)
+    ,0 0 60px -10px var(--clr-rose);
+    border: 1px solid #e11d48;
+}
+footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: var(--size-base);
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+    font-family:'Mario Kart DS' ;
+}
+footer ul li a{
+    color: var(--clr-light);
+    text-decoration: none;
+    opacity: 0.8;
+    padding: 20px;
+
+    
+}
+footer ul li{
+    display: inline-block;
+    padding: 15px;
+
+}
+/* footer ul a.home:hover{
+    opacity: 1;
+    color: var(--clr-blue);
+    
+}
+footer ul a.about:hover{
+    opacity: 1;
+    color: var(--clr-sky);
+    
+}
+footer ul a.skill:hover{
+    opacity: 1;
+    color: var(--clr-rose);
+    
+} */

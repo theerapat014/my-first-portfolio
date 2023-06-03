@@ -1,0 +1,8 @@
+@keyframes slide-up {
+    from {
+        transform: translateY(250px);
+    }    
+    to{
+        transform: translateY(0);
+    }
+}

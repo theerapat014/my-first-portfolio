@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="container " id="HOME">
+      <h2 class="logo">PORT<span>FOLIO</span></h2>
+      <nav class="nav__links">
+        <li><a href="#HOME" class="home">HOME</a></li>
+        <li><a href="#ABOUT" class="about">ABOUT</a></li>
+        <li><a href="#SKILL" class="skill">SKILL</a></li>
+      </nav>
+    </header>
+    <section class="hero container section">
+      <div class="detel" data-aos="fade-right" data-aos-duration="2000" >
+        <h1>Hi,My name is <span>Tle</span></h1>
+        <p>this is my portdlio webside
+          <br>Details abot my self is a fist website for me
+          <br>I make it good for you
+        </p>
+        <button class="btn">Read more</button>
+      </div>
+      <div class="images" data-aos="fade-left" data-aos-duration="2000">
+        <img src="img/BGqred-removebg-preview.png" class="shape">
+        <img src="img/slideface.png" class="man">
+      </div>
+    </section>
+    <section class="about container section" id="ABOUT">
+      <div class="image" data-aos="fade-left" data-aos-duration="1000">
+        <img src="./img/bgOsky1-removebg-preview.png" class="shap2">
+        <img src="./img/facetoface.png" class="men">
+      </div>
+      <div class="text " data-aos="fade-up"  data-aos-delay="100" data-aos-duration="2000">
+        <h2><span>About </span>Me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur 
+          <br>adipisicing elit. Doloribus, eligendi ratione? 
+          <br> Veritatis ut delectus fugiat vel sunt totam illum
+          <br> perferendis quas sint, autem minus accusamus, 
+          <br>sequi animi itaque ea aliquam.</p>
+          <button class="btn1">Read More</button>
+      </div>
+      
+    </section>
+    <section class="Skill container section" data-aos="fade-up" data-aos-duration="1000" id="SKILL">
+      <h1 >SKILL</h1>
+      <div class="content" data-aos-duration="2000">
+        <!-- <h1>SKill</h1> -->
+        <div class="box1" data-aos="fade-left" data-aos-duration="1000">
+          <h2>Skill one</h2>
+          <h3>Font End</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis 
+              inventore esse
+              odio iure id animi ut! Officiis quam amet, 
+              enim laboriosam in quibusdam. Suscipit odio nam officiis praesentium nobis odit?
+          </p>
+          <i class="fa-brands fa-html5" style="color: #fd090f;"></i>
+            <i class="fa-brands fa-css3-alt" style="color: #1f37e0;"></i>
+            <i class="fa-brands fa-square-js" style="color: #f8f349;"></i>
+        </div>
+        <div class="box2" data-aos="fade-left" data-aos-duration="2000">
+          <h2>Skill Two</h2>
+          <h3>Back End</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis 
+              inventore esse
+              odio iure id animi ut! Officiis quam amet, 
+              enim laboriosam in quibusdam. Suscipit odio nam officiis praesentium nobis odit?
+          </p>
+          <i class="fa-brands fa-node" style="color: #0caf07;"></i>
+          <i class="fa-brands fa-python" style="color: #281f50;"></i>
+        </div>
+        <div class="box3" data-aos="fade-left" data-aos-duration="3000">
+          <h2>Skill Three</h2>
+          <h3>.ETC</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis 
+              inventore esse
+              odio iure id animi ut! Officiis quam amet, 
+              enim laboriosam in quibusdam. Suscipit odio nam officiis praesentium nobis odit?
+          </p>
+          <i class="fa-solid fa-database" style="color: #9ba9b9;"></i>
+        </div>
+      </div>
+    </section>
+    <footer class="container footer section">
+      <div class="social">
+        <a href="#" class="a1"><i class="fa-brands fa-facebook" ></i></a>
+        <a href="#" class="a2"><i class="fa-brands fa-github"></i></a>
+        <a href="#" class="a3"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <ul class="list">
+        <li><a href="#HOME" class="home">HOME</a></li>
+        <li><a href="#ABOUT" class="about">ABOUT</a> </li>
+        <li><a href="#SKILL" class="skill">SKILL</a></li>
+      </ul>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

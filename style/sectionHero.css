@@ -1,0 +1,56 @@
+.hero{
+    margin-left: 8%;
+    /* margin-top: 15%; */
+    font-family: '04b';
+    height: 80vh;
+}
+.detel{
+    margin-top: 20%;
+}
+.detel h1{
+    font-size: 3rem;
+    color: var(--clr-dark);
+    margin: 20px 0;
+}
+.detel span{
+    color:var(--clr-blue);
+}
+.detel p{
+    color: #475569;
+    line-height: 22px;
+}
+.images{
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images .man{
+    position: absolute;
+    bottom: 30%;
+}
+.images .shape{
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    bottom: 30%;
+}
+.images:hover .shape{
+    bottom:40%;
+}
+.images:hover .man{
+    left: 45%;
+}
+button{
+    margin-top: 2rem;
+}
+
